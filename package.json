@@ -1,0 +1,36 @@
+{
+    "name": "img_thumb",
+    "version": "1.0.0",
+    "description": "A simple stateless Image thumbnail generation in Nodejs",
+    "main": "app.js",
+    "scripts": {
+        "test": "nyc --reporter=text mocha",
+        "start": "node index.js"
+    },
+    "author": "Prashant Chouhan",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "cryptiles": "^4.1.3",
+        "download": "^8.0.0",
+        "ejs": "^2.5.7",
+        "express": "^4.16.2",
+        "fast-json-patch": "^3.0.0-1",
+        "hoek": "^6.1.3",
+        "image-downloader": "^3.3.0",
+        "jsonpatch": "^3.0.1",
+        "jsonwebtoken": "^8.1.0",
+        "koa": "^2.12.0",
+        "localStorage": "^1.0.4",
+        "minimist": "^1.2.5",
+        "mocha": "^7.2.0",
+        "morgan": "^1.10.0",
+        "node-localstorage": "^1.3.0",
+        "nyc": "^15.0.1",
+        "resize-img": "^2.0.0",
+        "sharp": "^0.25.3",
+        "stringstream": "^1.0.0",
+        "supertest": "^4.0.2"
+    },
+    "devDependencies": {}
+}
