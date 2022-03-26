@@ -22,7 +22,7 @@
         "jsonwebtoken": "^8.1.0",
         "koa": "^2.12.0",
         "localStorage": "^1.0.4",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.6",
         "mocha": "^7.2.0",
         "morgan": "^1.10.0",
         "node-localstorage": "^1.3.0",
